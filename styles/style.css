@@ -5,3 +5,10 @@
 }
 
 /* Implementar Sass e adicionar o README.md no projeto */
+
+#profile-pic {
+  width: 200px;
+  padding: 5px;
+  border: 2px solid orangered;
+  border-radius: 50%;
+}
