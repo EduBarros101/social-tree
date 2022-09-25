@@ -1,6 +1,7 @@
 # Desafio: Social Tree
 
 Desafio da Trilha Discover da Rocketseat.
+Link para a página do projeto: https://edubarros101.github.io/social-tree/
 
 ## Tecnologias Necessárias
 
