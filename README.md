@@ -5,7 +5,7 @@ Desafio da Trilha Discover da Rocketseat.
 ## Tecnologias Necessárias
 
 - HTML
-- CSS
+- Sass
 
 ## Requisitos para o desafio
 
