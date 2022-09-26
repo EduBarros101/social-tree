@@ -1,5 +1,8 @@
-$main-color: orange;
-$text-color: orange;
+$main-color: #99582a;
+$secondary-color: #ffe6a7;
+$text-color: #bb9457;
+
+// Resets
 
 :root {
   font-family: 'Poppins', sans-serif;
@@ -21,11 +24,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  border-bottom: 1px solid $main-color;
-  background-color: $main-color;
-  color: white;
-}
+// Styling
 
 main {
   display: flex;
@@ -52,7 +51,17 @@ main {
   }
 
   p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    a {
+      transition: 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+        background-color: $secondary-color;
+      }
+    }
   }
 }
 
@@ -75,10 +84,27 @@ main {
 
     border: 2px solid $main-color;
     border-radius: 4px;
+
+    a {
+      transition: 0.3s;
+
+      &:hover {
+        background-color: $secondary-color;
+        border-bottom: 1px solid $main-color;
+      }
+    }
   }
 }
 
 .social-links {
   display: flex;
   justify-content: space-evenly;
+
+  li {
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.3);
+    }
+  }
 }
