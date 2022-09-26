@@ -6,7 +6,9 @@ Link para a página do projeto: https://edubarros101.github.io/social-tree/
 ## Tecnologias Necessárias
 
 - HTML
-- Sass
+- CSS (usado Sass)
+
+Neste projeto, aproveitei para estudar mais sobre o uso de Sass em vez de fazê-lo só com CSS.
 
 ## Requisitos para o desafio
 
